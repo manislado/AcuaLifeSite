@@ -53,6 +53,8 @@ h1{
 
 .peceraFondo {
     width: 1290px;
+    width: 100%;
+    width: 1380px;
     height:115vh;
     background-image: url(./images/pecera.jpg);
     background-repeat: no-repeat;
