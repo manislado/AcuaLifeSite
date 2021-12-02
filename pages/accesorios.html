@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo.png">
+    <title> Acualife | Accesorios </title>
+    <link rel="stylesheet" href="../estilos.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="headerLogo">
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="Logo AcuaLife">
+            </a>
+        </div>
+        
+        <h1>AcuaLife</h1>
+
+        <nav class="headerMenu">
+            <ul>
+                <li> <a href="../index.html"> Inicio </a> </li>
+                <li> <a href="../pages/accesorios.html"> Accesorios </a> </li>
+                <li> <a href="../pages/peces.html"> Peces </a> </li>
+                <li> <a href="../pages/invertebrados.html"> Invertebrados </a> </li>
+                <li> <a href="../pages/soporte.html"> Soporte </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br><br><br><br>
+
+    <section class="listaAccesorios">
+        <ul>
+            <li> <a href="../index.html"> Inicio </a> </li>
+            <li> <a href="#peceras"> Peceras </a> </li>
+            <li> <a href="#kit"> Calentadores </a> </li>
+            <li> <a href="#bombas"> Bombas </a> </li>
+            <li> <a href="#introduccion"> Alimento </a> </li>
+            <li> <a href="#kit"> Lamparas </a> </li>
+        </ul>
+    </section>
+
+    <section id="kit">
+        <h2> Imagen de Accesorios Acualife </h2>
+        <img src="../images/kit_accesorios.jpg" alt="Accesorios Acuario AcuaLife">
+    </section>
+
+    <section id="introduccion">
+        <p class="colorCeleste">
+            Todo lo que debes tener en cuenta para tener un acuario en casa. Te enseñamos cómo elegirlos, equipamiento,
+            instalación, selección de peces, mantenimiento del acuario y el cuidado de los peces. Tener acuarios no es
+            nada del otro mundo.
+        </p>
+    </section>
+  
+    <br>
+
+    <aside>
+        <p> Imagen de Accesorios (cabeza)</p>
+        <img src="../images/accesorio.jpg" alt="Cabeza para Acuario">
+    </aside>
+
+    <h2 id="peceras"> Peceras </h2>
+    <section class="gridPeceras">
+        <div>Marca</div>
+        <div>Codigo</div>
+        <div>Tipo</div>
+        <div>Precio</div>
+
+        <div>Voyou</div>
+        <div>0010</div>
+        <div>Dulce</div>
+        <div>$100</div>
+
+        <div>Armada</div>
+        <div>0020</div>
+        <div>Marina</div>
+        <div>$300</div>
+
+        <div>Voyou</div>
+        <div>0030</div>
+        <div>Marina</div>
+        <div>$1000</div>
+    </section>
+
+
+    <section id="bombas">
+        <h2> Bombas </h2>
+        <ol>
+            <li>Bombas sencillas</li>
+            <li>Cabezas</li>
+            <li>Bombas silenciosas</li>
+        </ol>
+    </section>
+
+    <section> Alimento </section>
+
+    <br>
+
+    <h2> Consultar Accesorios </h2>
+
+    <form action="/" method="post">
+        <fieldset>
+            <legend> Consultar </legend>
+            <label for="articulo">Articulo:</label>
+            <input id="articulo" type="text" placeholder="Ingrese un articulo">
+            <br>
+            <br>
+            <select name="origen">
+                <option value="nacional">Nacional</option>
+                <option value="importado">Importado</option>
+            </select>
+            <br>
+            <br>
+            <h2> Ordenar por: </h2>
+            <label for="precio">Precio</label>
+            <input type="radio" name="ordenar" value="precio" />
+            <label for="marca">Marca</label>
+            <input type="radio" name="ordenar" value="marca" />
+            <br>
+            <br>
+            <label for="">Acepta las condiciones:</label>
+            <input type="checkbox" name="acepta" value="1" />
+            <br>
+            <br>
+            <input type="submit" value="Consultar">
+            <input type="reset" value="Borrar valores">
+        </fieldset>
+
+    </form>
+    
+    <footer class="footer">
+        <div class="footerRow">
+            <nav class="footerMenu">
+                <ul>
+                    <li> <a href="../index.html"> Inicio </a> </li>
+                    <li> <a href="../pages/accesorios.html"> Accesorios </a> </li>
+                    <li> <a href="../pages/peces.html"> Peces </a> </li>
+                    <li> <a href="../pages/invertebrados.html"> Invertebrados </a> </li>
+                    <li> <a href="../pages/soporte.html"> Soporte </a> </li>
+                </ul>
+            </nav>
+            <form action="accion" class="footerForm">
+                <input id="nombre" name="nombre" type="text" placeholder="">
+                <input id="email" name="email" type="email" placeholder="">
+                <input type="submit" value="Suscribirse">
+            </form>
+            <div class="footerSocial">
+                <a href=""><img src="../iconos/instagram.png" alt="instagram"> </a>
+                <a href=""><img src="../iconos/facebook.png" alt="facebook"> </a>
+                <a href=""><img src="../iconos/twetter.png" alt="twetter"> </a>
+            </div>
+        </div>
+        <div class="footerRow">
+            <p>Todos los derechos reservados. </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

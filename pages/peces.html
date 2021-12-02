@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo.png">
+    <title> Acualife | Peces </title>
+    <link rel="stylesheet" href="../estilos.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="headerLogo">
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="Logo AcuaLife">
+            </a>
+        </div>
+        
+        <h1>AcuaLife</h1>
+
+        <nav class="headerMenu">
+            <ul>
+                <li> <a href="../index.html"> Inicio </a> </li>
+                <li> <a href="../pages/accesorios.html"> Accesorios </a> </li>
+                <li> <a href="../pages/peces.html"> Peces </a> </li>
+                <li> <a href="../pages/invertebrados.html"> Invertebrados </a> </li>
+                <li> <a href="../pages/soporte.html"> Soporte </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br><br><br><br>
+    
+    <section>
+        <ul>
+            <li> <a href="../index.html"> Inicio </a> </li>
+            <li> <a href="#img_peces_agua_dulce"> Peces Tropicales </a> </li>
+            <li> <a href="#img_peces_marinos"> Peces Marinos </a> </li>
+            <li> <a href="#catalogo_peces"> Catalogo </a> </li>
+        </ul>
+    </section>
+
+    <section id="img_peces_agua_dulce">
+        <h2> Imagen de Peces Acualife </h2>
+        <img src="../images/peces-de-agua-dulce.jpg" alt="Peces AcuaLife">
+    </section>
+
+    <section>
+        <p>
+            Los peces tropicales son aquellos que viven en rios o lagos y son de agua dulce.
+            Los peces marinos como su nombre lo indica son los que viven en el mar, es decir son de agua salada.
+            Los peces de agua dulce son mas faciles de criar en cauteverios y peceras.
+            Los peces marinos por el esfuerzo que conlleva capturarlos y transportarlos son mas costosos y mas
+            delicados, requieren mayores cuidados.
+        </p>
+    </section>
+
+    <br>
+
+    <aside id="img_peces_marinos">
+        <p> Imagen de peces marinos</p>
+        <img src="../images/peces marinos.jpg" alt="Peces Marinos">
+    </aside>
+    <br>
+
+
+    <h2>Catalogo Peces</h2>
+
+    <div class="gridCatPeces">
+        <div>Nombre</div>
+        <div>Codigo</div>
+        <div>Tipo</div>
+        <div>Precio</div>
+
+        <div>Payaso</div>
+        <div>0010</div>
+        <div>Marino</div>
+        <div>$500</div>
+
+        <div>Cirujano</div>
+        <div>0020</div>
+        <div>Marino</div>
+        <div>$800</div>
+
+        <div>Discus</div>
+        <div>0030</div>
+        <div>Tropical</div>
+        <div>$1000</div>
+    </div>
+
+    <br>
+
+    <h2> Imagenes Peces Marinos </h2>
+
+    <div class="flexPecesMarinos">
+        <div class="pezmarino1">
+            <img src="../images/imgMarino1.jpg">
+        </div>
+
+        <div class="pezmarino2">
+            <img src="../images/imgMarino2.jpg">
+        </div>
+
+        <div class="pezmarino3">
+            <img src="../images/imgMarino3.jpg">
+        </div>
+
+        <div class="pezmarino4">
+            <img src="../images/imgMarino4.jpg">
+        </div>
+
+        <div class="pezmarino5">
+            <img src="../images/imgMarino5.jpg">
+        </div>
+
+        <div class="pezmarino6">
+            <img src="../images/imgMarino6.jpg">
+        </div>
+    </div>
+
+    <br>
+
+    <h2> Consultar Peces </h2>
+
+    <form action="/" method="post">
+        <fieldset>
+            <legend> Consultar </legend>
+            <label for="articulo">Articulo:</label>
+            <input id="articulo" type="text" placeholder="Ingrese un articulo">
+            <br>
+            <br>
+            <select name="origen">
+                <option value="nacional">Nacional</option>
+                <option value="importado">Importado</option>
+            </select>
+            <br>
+            <br>
+            <h2> Ordenar por: </h2>
+            <label for="precio">Precio</label>
+            <input type="radio" name="ordenar" value="precio" />
+            <label for="marca">Marca</label>
+            <input type="radio" name="ordenar" value="marca" />
+            <br>
+            <br>
+            <label for="">Acepta las condiciones:</label>
+            <input type="checkbox" name="acepta" value="1" />
+            <br>
+            <br>
+            <input type="submit" value="Consultar">
+            <input type="reset" value="Borrar valores">
+        </fieldset>
+    </form>
+
+    <footer class="footer">
+        <div class="footerRow">
+            <nav class="footerMenu">
+                <ul>
+                    <li> <a href="../index.html"> Inicio </a> </li>
+                    <li> <a href="../pages/accesorios.html"> Accesorios </a> </li>
+                    <li> <a href="../pages/peces.html"> Peces </a> </li>
+                    <li> <a href="../pages/invertebrados.html"> Invertebrados </a> </li>
+                    <li> <a href="../pages/soporte.html"> Soporte </a> </li>
+                </ul>
+            </nav>
+            <form action="accion" class="footerForm">
+                <input id="nombre" name="nombre" type="text" placeholder="">
+                <input id="email" name="email" type="email" placeholder="">
+                <input type="submit" value="Suscribirse">
+            </form>
+            <div class="footerSocial">
+                <a href=""><img src="../iconos/instagram.png" alt="instagram"> </a>
+                <a href=""><img src="../iconos/facebook.png" alt="facebook"> </a>
+                <a href=""><img src="../iconos/twetter.png" alt="twetter"> </a>
+            </div>
+        </div>
+        <div class="footerRow">
+            <p>Todos los derechos reservados. </p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

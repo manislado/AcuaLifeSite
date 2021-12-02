@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo.png">
+    <title> Acualife | Invertebrados </title>
+    <link rel="stylesheet" href="../estilos.css"/>
+</head>
+
+<body>
+    <header class="header">
+        <div class="headerLogo">
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="Logo AcuaLife">
+            </a>
+        </div>
+        
+        <h1>AcuaLife</h1>
+
+        <nav class="headerMenu">
+            <ul>
+                <li> <a href="../index.html"> Inicio </a> </li>
+                <li> <a href="../pages/accesorios.html"> Accesorios </a> </li>
+                <li> <a href="../pages/peces.html"> Peces </a> </li>
+                <li> <a href="../pages/invertebrados.html"> Invertebrados </a> </li>
+                <li> <a href="../pages/soporte.html"> Soporte </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br><br><br><br>
+    
+    <section>
+        <ul>
+            <li> <a href="../index.html"> Inicio </a> </li>
+            <li> <a href="#img_anemona"> Anemonas </a> </li>
+            <li> <a href="#img_roca_viva"> Roca Viva </a> </li>
+            <li> <a href="#img_hipocampo"> Hipocampo </a> </li>
+            <li> <a href="#img_coral"> Corales </a> </li>
+            <li> <a href="#catalogo_invertebrados"> Catalogo </a> </li>
+        </ul>
+    </section>
+
+    <section id="img_anemona">
+        <h2> Imagen de Anemona Acualife </h2>
+        <img src="../images/anemona.jpg" alt="Anemonas AcuaLife">
+    </section>
+
+    <section>
+        <p>
+            Los invertebrados marinos son animales multicelulares que carecen de columna vertebral y viven en el medio
+            marino. Los invertebrados marinos comunes incluyen esponjas, cnidarios (medusas, corales), gusanos marinos,
+            moluscos (caracoles, babosas), artrópodos (cangrejos, camarones, langostas) y equinodermos (estrellas de
+            mar, erizos de mar).
+        </p>
+    </section>
+
+    <section id="img_coral">
+        <h2> Imagen de Coral Acualife </h2>
+        <img src="../images/coral.jpg" alt="Corales AcuaLife">
+    </section>
+
+    <section id="img_roca_viva">
+        <h2> Imagen de Roca Viva Acualife </h2>
+        <img src="../images/roca_viva.jpg" alt="Roca Viva AcuaLife">
+    </section>
+
+    <aside id="img_hipocampo">
+        <p> Imagen de Hipocampo</p>
+        <img src="../images/hipocampo.jpg" alt="Peces Marinos">
+    </aside>
+
+    <section id="catalogo_invertebrados">
+        <h2> Catalogo Invertebrados </h2>
+        <article>
+            <p> Lista de Invertebrados</p>
+            <table border="1" cellpadding="5">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Codigo</th>
+                    <th>Tipo</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td>Anemona</td>
+                    <td>0010</td>
+                    <td>Marino</td>
+                    <td>$500</td>
+                </tr>
+                <tr>
+                    <td>Hipocampo</td>
+                    <td>0020</td>
+                    <td>Marino</td>
+                    <td>$800</td>
+                </tr>
+                <tr>
+                    <td>Coral</td>
+                    <td>0030</td>
+                    <td>Marino</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>Estrella de Mar</td>
+                    <td>0030</td>
+                    <td>Marino</td>
+                    <td>$8000</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+
+    <section>
+        <h2> Anemona </h2>
+        <ol>
+            <li>Amarilla</li>
+            <li>Blanca</li>
+        </ol>
+    </section>
+
+
+    <h2> Consultar Invertebrados </h2>
+
+    <form action="/" method="post">
+        <fieldset>
+            <legend> Consultar </legend>
+            <label for="articulo">Articulo:</label>
+            <input id="articulo" type="text" placeholder="Ingrese un articulo">
+            <br>
+            <br>
+            <select name="origen">
+                <option value="nacional">Nacional</option>
+                <option value="importado">Importado</option>
+            </select>
+            <br>
+            <br>
+            <h2> Ordenar por: </h2>
+            <label for="precio">Precio</label>
+            <input type="radio" name="ordenar" value="precio" />
+            <label for="marca">Marca</label>
+            <input type="radio" name="ordenar" value="marca" />
+            <br>
+            <br>
+            <label for="">Acepta las condiciones:</label>
+            <input type="checkbox" name="acepta" value="1" />
+            <br>
+            <br>
+            <input type="submit" value="Consultar">
+            <input type="reset" value="Borrar valores">
+        </fieldset>
+
+    </form>
+
+    <footer class="footer">
+        <div class="footerRow">
+            <nav class="footerMenu">
+                <ul>
+                    <li> <a href="../index.html"> Inicio </a> </li>
+                    <li> <a href="../pages/accesorios.html"> Accesorios </a> </li>
+                    <li> <a href="../pages/peces.html"> Peces </a> </li>
+                    <li> <a href="../pages/invertebrados.html"> Invertebrados </a> </li>
+                    <li> <a href="../pages/soporte.html"> Soporte </a> </li>
+                </ul>
+            </nav>
+            <form action="accion" class="footerForm">
+                <input id="nombre" name="nombre" type="text" placeholder="">
+                <input id="email" name="email" type="email" placeholder="">
+                <input type="submit" value="Suscribirse">
+            </form>
+            <div class="footerSocial">
+                <a href=""><img src="../iconos/instagram.png" alt="instagram"> </a>
+                <a href=""><img src="../iconos/facebook.png" alt="facebook"> </a>
+                <a href=""><img src="../iconos/twetter.png" alt="twetter"> </a>
+            </div>
+        </div>
+        <div class="footerRow">
+            <p>Todos los derechos reservados. </p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
