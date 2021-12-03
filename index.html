@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/logo.png">
     <title> Acualife Site </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <link rel="stylesheet" href="./estilos.css" />
 </head>
 
@@ -18,7 +21,7 @@
             </a>
         </div>
 
-        <h1>AcuaLife</h1>
+        <h1 class="animate__animated animate__bounce">AcuaLife</h1>
 
         <nav class="headerMenu">
             <ul>
@@ -31,21 +34,23 @@
         </nav>
     </header>
 
-    <section class="peceraFondo"> </section>
+    <section class="peceraFondo"></section>
+    <div class="letreroAnimado">Mundo Marino</div>
 
-    <section>
+    <div class="container">
         <p class="descripPecera">
-            Las peceras intentan imitar el ambiente natural en el que viven los peces para que puedan sentirse a gusto
+            Las peceras intentan imitar el ambiente natural en el que viven los peces para que puedan sentirse a
+            gusto
             teniendo en cuenta los espacios reducidos de los que disponen.
-            Las más sencillas, son las que no cuentan con filtro ni calentador, es decir, las de agua fría, pero estas
+            Las más sencillas, son las que no cuentan con filtro ni calentador, es decir, las de agua fría, pero
+            estas
             requieren de una higiene mucho más especial y diaria.
         </p>
-    </section>
+    </div>
 
     <aside>
         <p class="colorCeleste"> Imagen de Tienda </p>
-
-        <a href="./pages/soporte.html">
+        <a class="imgTienda" href="./pages/soporte.html">
             <img src="./images/instalacion.png" alt="Instalacion de Acuarios">
         </a>
     </aside>
@@ -109,6 +114,11 @@
             <p>Todos los derechos reservados. </p>
         </div>
     </footer>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW, init();
+    </script>
 
 </body>
 
