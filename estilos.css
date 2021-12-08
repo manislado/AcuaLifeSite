@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -15,7 +16,7 @@ h1{
 .header {
     position: fixed;
     width: 100%;
-    padding: 0 10px;
+    padding: -10px -30px;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -38,6 +39,7 @@ h1{
     transform: rotate(-1deg);
 }
 
+/*
 .headerMenu {
     width: 100%;
 }
@@ -56,11 +58,17 @@ h1{
     height: 25px;
     
 }
+*/
+
+.container-fluid{
+    margin: -8px;
+    padding-right: 60px;
+    background-color: #1ca3e2;
+}
 
 .peceraFondo {
-    width: 1290px;
-    width: 100%;
-    width: 1530px;
+  
+    padding-left: 100px;
     height:115vh;
     background-image: url(./images/pecera.jpg);
     background-repeat: no-repeat;
@@ -118,6 +126,10 @@ h1{
     margin: 10px;
 }
 
+.container img{
+    padding-bottom: 30px;
+}
+
 h2:hover {
     background-color: darkorange;
 }
@@ -150,7 +162,7 @@ h2:hover {
   }
 
 .gridCatPeces div{
-    width: 60px;
+    width: 55px;
     height:25px;
     background-color: cornsilk;
     
@@ -177,6 +189,20 @@ h2:hover {
     margin: 1px;
    
 }
+
+.carousel-item img {
+    height: 350px;
+    width: 500px;
+}
+
+.img-responsive {
+    display: flex;
+    justify-content:space-evenly;
+    width: 70%;
+    list-style-type: none;
+    
+}
+
 
 /*FOOTER*/
 
