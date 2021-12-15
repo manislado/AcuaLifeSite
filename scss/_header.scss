@@ -1,0 +1,38 @@
+h1{
+    color: #2600ff;
+}
+
+.colorCeleste {
+    color:rgb(52, 30, 114);
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: -10px -30px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #1ca3e2;
+
+    & h1{
+        transform: rotate(5deg);
+        transform: skew(2deg,2deg);
+    }
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+    & img {
+        width: 150px;
+        height: 100px;
+        transform: rotate(-1deg);
+    }
+}
+
+.container-fluid{
+    margin: -8px;
+    padding-right: 60px;
+    background-color: #1ca3e2;
+}

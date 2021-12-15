@@ -1,0 +1,23 @@
+/* MEDIA QUERY*/
+
+@media screen and (max-width:768px) {
+    .footerRow{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerMenu, .footerForm{
+        margin-bottom: 10px;
+    }
+
+    .footerForm{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .footerSocial img{
+        height: 40px;
+        margin: 18px;
+    }
+}

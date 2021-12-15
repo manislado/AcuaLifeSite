@@ -1,0 +1,33 @@
+.flexPecesMarinos{ 
+    position: relative;
+    width:900vw;
+    height:25vh;
+    display:flex;
+      
+    justify-content: flex-start;
+    align-items: center;
+    & img{
+        height:auto;
+        width:auto;
+        max-height:130px;
+        max-width:290px;
+        border-radius: 30px;
+        margin: 1px;
+       
+    }
+ 
+    
+}
+
+.carousel-item img {
+    height: 350px;
+    width: 500px;
+}
+
+.img-responsive {
+    display: flex;
+    justify-content:space-evenly;
+    width: 70%;
+    list-style-type: none;
+    
+}
